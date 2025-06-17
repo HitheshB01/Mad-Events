@@ -12,14 +12,14 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: '+91 98765 43210',
+      details: '+91 9019413356',
       description: 'Call us for immediate assistance',
       gradient: 'from-rose-gold to-deep-rose',
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp',
-      details: '+91 98765 43210',
+      details: '+91 9019413356',
       description: 'Quick responses via WhatsApp',
       gradient: 'from-success-green to-green-600',
     },
