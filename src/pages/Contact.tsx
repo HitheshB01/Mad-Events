@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hi! I'd like to discuss planning an extraordinary event with MAD Events. Can we schedule a consultation?");
-    window.open(`https://wa.me/+919876543210?text=${message}`, '_blank');
+    window.open(`https://wa.me/+919019413356?text=${message}`, '_blank');
   };
 
   return (
