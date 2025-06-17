@@ -231,7 +231,7 @@ const Contact: React.FC = () => {
                   Or call us directly for immediate assistance
                 </p>
                 <a 
-                  href="tel:+919876543210" 
+                  href="tel:+919019413356" 
                   className="text-rose-gold hover:text-warm-gold transition-colors font-inter font-medium text-lg"
                 >
                   +91 98765 43210
