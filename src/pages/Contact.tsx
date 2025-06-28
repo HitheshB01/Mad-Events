@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'hello@madevents.com',
+      details: 'harshithab7338@gmail.com',
       description: 'Send us your detailed requirements',
       gradient: 'from-warm-gold to-rich-gold',
     },
@@ -234,7 +234,7 @@ const Contact: React.FC = () => {
                   href="tel:+919019413356" 
                   className="text-rose-gold hover:text-warm-gold transition-colors font-inter font-medium text-lg"
                 >
-                  +91 98765 43210
+                  +91 90194 13356
                 </a>
               </div>
             </div>

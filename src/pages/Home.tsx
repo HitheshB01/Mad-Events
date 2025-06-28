@@ -26,9 +26,9 @@ const Home: React.FC = () => {
 
   const stats = [
     { number: '500+', label: 'Events Organized', icon: Calendar, color: 'from-rose-gold to-deep-rose' },
-    { number: '50K+', label: 'Happy Clients', icon: Users, color: 'from-warm-gold to-rich-gold' },
-    { number: '10+', label: 'Years Experience', icon: Award, color: 'from-deep-rose to-rose-gold' },
-    { number: '200km', label: 'Service Radius', icon: MapPin, color: 'from-rich-gold to-warm-gold' },
+    { number: '1000+', label: 'Happy Clients', icon: Users, color: 'from-warm-gold to-rich-gold' },
+    { number: '5+', label: 'Years Experience', icon: Award, color: 'from-deep-rose to-rose-gold' },
+    { number: '50km', label: 'Service Radius', icon: MapPin, color: 'from-rich-gold to-warm-gold' },
   ];
 
   const eventPreviews = [
@@ -164,7 +164,7 @@ const Home: React.FC = () => {
       <span className="font-semibold">✓ 10% Off</span> on all pre-bookings
     </p>
     <p className="text-lg lg:text-xl font-inter text-warm-gray mb-6">
-      <span className="font-semibold">✓ 60% Off</span> for one lucky customer!
+      <span className="font-semibold">✓ 25% Off</span> for one lucky customer!
     </p>
 
     <a
