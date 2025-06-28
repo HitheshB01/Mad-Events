@@ -286,7 +286,7 @@ const Services: React.FC = () => {
               className="group inline-flex items-center px-10 py-5 bg-gradient-to-r from-rose-gold via-deep-rose to-warm-gold text-pearl rounded-full font-inter font-semibold text-lg shadow-glow-gold hover:shadow-luxury-lg transition-all duration-500 cursor-hover relative overflow-hidden"
               onClick={() => {
                 const message = encodeURIComponent("Hi! I'd like to discuss my event planning needs and explore your premium services. Can we schedule a consultation?");
-                window.open(`https://wa.me/+919876543210?text=${message}`, '_blank');
+                window.open(`https://wa.me/+91 9876543210 ?text=${message}`, '_blank');
               }}
             >
               <span className="relative z-10 flex items-center">

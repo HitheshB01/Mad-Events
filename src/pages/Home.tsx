@@ -143,39 +143,56 @@ const Home: React.FC = () => {
           </motion.div>
           
           <motion.div
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="relative"
-          >
-            <div className="relative z-10">
-              <motion.div
-                style={{ y: y2Spring }}
-                className="relative overflow-hidden rounded-3xl shadow-luxury-lg"
-              >
-                <img
-                  src="https://images.pexels.com/photos/1729787/pexels-photo-1729787.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="MAD Events - Luxury Wedding Celebration"
-                  className="w-full h-[600px] object-cover cursor-view"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/20 via-transparent to-transparent" />
-              </motion.div>
-              
-              <motion.div
-                animate={{ rotate: 360 }}
-                transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-                className="absolute -top-6 -right-6 w-20 h-20 bg-gradient-to-br from-warm-gold to-rich-gold rounded-full flex items-center justify-center shadow-glow-gold"
-              >
-                <Sparkles className="w-8 h-8 text-pearl" />
-              </motion.div>
-            </div>
-            
-            <motion.div
-              animate={{ y: [0, -15, 0], rotate: [0, 5, 0] }}
-              transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
-              className="absolute -bottom-8 -left-8 w-32 h-32 bg-gradient-to-br from-rose-gold/30 to-deep-rose/30 rounded-full backdrop-blur-sm border border-rose-gold/20"
-            />
-          </motion.div>
+  initial={{ opacity: 0, x: 100 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+  className="relative"
+>
+  <motion.div
+    initial={{ scale: 0.9, opacity: 0 }}
+    animate={{ scale: 1, opacity: 1 }}
+    transition={{ duration: 1, ease: 'easeOut' }}
+    className="relative z-10 bg-gradient-to-br from-rose-gold/30 to-warm-gold/30 backdrop-blur-md rounded-3xl shadow-luxury-lg p-8 lg:p-12 text-center"
+  >
+    <h2 className="text-4xl lg:text-5xl font-playfair font-bold text-charcoal mb-4">
+      Exclusive Offer!
+    </h2>
+    <p className="text-xl lg:text-2xl font-inter text-warm-gold mb-6 leading-relaxed">
+      From <span className="font-semibold">27th June</span> to <span className="font-semibold">5th July</span>
+    </p>
+    <p className="text-lg lg:text-xl font-inter text-warm-gray mb-4">
+      <span className="font-semibold">✓ 10% Off</span> on all pre-bookings
+    </p>
+    <p className="text-lg lg:text-xl font-inter text-warm-gray mb-6">
+      <span className="font-semibold">✓ 60% Off</span> for one lucky customer!
+    </p>
+
+    <a
+      href="https://forms.gle/7LcZhtYeJ7BCDRUT8"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-rose-gold to-deep-rose text-pearl rounded-full font-inter font-medium shadow-glow hover:shadow-glow-gold transition-all duration-500"
+    >
+      Pre-Book Now
+    </a>
+  </motion.div>
+
+  <motion.div
+    animate={{ rotate: 360 }}
+    transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
+    className="absolute -top-6 -right-6 w-20 h-20 bg-gradient-to-br from-warm-gold to-rich-gold rounded-full flex items-center justify-center shadow-glow-gold"
+  >
+    <Sparkles className="w-8 h-8 text-pearl" />
+  </motion.div>
+
+  <motion.div
+    animate={{ y: [0, -15, 0], rotate: [0, 5, 0] }}
+    transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+    className="absolute -bottom-8 -left-8 w-32 h-32 bg-gradient-to-br from-rose-gold/30 to-deep-rose/30 rounded-full backdrop-blur-sm border border-rose-gold/20"
+  />
+</motion.div>
+
+
         </div>
       </section>
 
