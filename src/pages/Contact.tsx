@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
     {
       icon: MessageCircle,
       title: 'WhatsApp',
-      details: '+91 98765 43210',
+      details: '+91 9019413356',
       description: 'Quick responses via WhatsApp',
       gradient: 'from-success-green to-green-600',
     },
@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hi! I'd like to discuss planning an extraordinary event with MAD Events. Can we schedule a consultation?");
-    window.open(`https://wa.me/+919876543210?text=${message}`, '_blank');
+    window.open(`https://wa.me/+919019413356?text=${message}`, '_blank');
   };
 
   return (
@@ -231,7 +231,7 @@ const Contact: React.FC = () => {
                   Or call us directly for immediate assistance
                 </p>
                 <a 
-                  href="tel:+919876543210" 
+                  href="tel:+919019413356" 
                   className="text-rose-gold hover:text-warm-gold transition-colors font-inter font-medium text-lg"
                 >
                   +91 98765 43210
